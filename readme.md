@@ -1,9 +1,10 @@
 # My Gcloud
 
-I work on many projects at the same time, each project has its own gcloud project, and many are on different gcloud account of mine. I always hated having to change from 1 project to another...
+I work on many projects at the same time, each project has its own gcloud project, and many are on different gcloud accounts of mine. I always hated having to change from 1 project to another...
 
 > gcloud config set account X
-> gcloud config set project Y
+ 
+>gcloud config set project Y
 
 etc... enters gcloud configuration, so you create a configuration and you set the project and account for it and that's it, the only problem remaining was that to create a configuration you still had to run multiple commands to set project zone and account, additionally you still had the issue of gke. You can't link a gke to a configuration, and if by mistake you run a simple command 
 
