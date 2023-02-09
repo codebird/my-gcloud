@@ -13,10 +13,10 @@ on the wrong gke cluster, then the configuration is lost, for this specific clus
 
 My gcloud is a simple python script, a small wrapper around gcloud config configuration. it fixes these pain points:
 
-### Set all options at once, region, zone, account, project
-### If project and account are set, it will bring all k8s cluster configurations
-### If k8s value is set, it will link that k8s cluster to this configuration, so when your activate the configuration, it will change k8s context
-### If k8s value is not set, it will default to the last k8s cluster in the list.
++ Set all options at once, region, zone, account, project
++ If project and account are set, it will bring all k8s cluster configurations
++ If k8s value is set, it will link that k8s cluster to this configuration, so when your activate the configuration, it will change k8s context
++ If k8s value is not set, it will default to the last k8s cluster in the list.
 
 Use it directly as executable 
 
