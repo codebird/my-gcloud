@@ -30,17 +30,23 @@ Add it to your PATH to use it as a normal command.
 
 This will automatically fetch all your gke clusters credentials, and link the k8s cluster you provided to this configuration.
 
-> ./mygcloud.py create config_name --account=email@email.com --zone=us-central1-a --region=us-central1 --project=project-name --k8s=some_kubernetes_cluster
+```
+./mygcloud.py create config_name --account=email@email.com --zone=us-central1-a --region=us-central1 --project=project-name --k8s=some_kubernetes_cluster
+```
 
 ### Activate configuation
 
 This will activate the configuration, and change your kubectl context to the one you provided when you created the configuration, or default to the last k8s cluster in your clusters
 
-> ./mygcloud.py activate config_name 
+```
+./mygcloud.py activate config_name
+```
 
 
 ### Delete configuration
 
-This will delete gcloud configuration
+This will delete gcloud configuration if it is not the active configuration.
 
-> ./mygcloud.py delete config_name
+```
+./mygcloud.py delete config_name
+```
